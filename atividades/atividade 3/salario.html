@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Salário</title>
+</head>
+<body>
+    <h2>Calculadora de Salário</h2>
+    
+    <form action="calculo_salario.php" method="post">
+        <label for="ganhoPorHora">Quanto você ganha por hora:</label>
+        <input type="text" id="ganhoPorHora" name="ganhoPorHora" required>
+        
+        <label for="horasTrabalhadas">Número de horas trabalhadas no mês:</label>
+        <input type="text" id="horasTrabalhadas" name="horasTrabalhadas" required>
+        
+        <button type="submit">Calcular</button>
+    </form>
+</body>
+</html>
